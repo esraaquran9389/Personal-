@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ahmed Elsyed</title>
+  <title>Ahmed Elsyed - الصفحة الشخصية</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="social-media.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+
 </head>
 <body>
 
@@ -47,6 +49,14 @@
       <img src="globe.png" alt="Website">
     </a>
   </div>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js")
+        .then(reg => console.log("Service Worker Registered"))
+        .catch(err => console.error("Service Worker Failed", err));
+    }
+  </script>
+
 
 </body>
 </html>
