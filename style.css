@@ -76,7 +76,6 @@ h1 {
 
 .social-links a:hover {
   transform: translateY(-10px) scale(1.12);
-  background: #ffaa00;
   box-shadow: 0 0 30px rgba(255, 170, 0, 0.4), 0 0 50px rgba(255, 170, 0, 0.3);
 }
 
