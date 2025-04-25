@@ -144,3 +144,44 @@ h1 {
     padding: 5px 8px;
   }
 }
+
+/* تخصيص لون الدائرة لكل منصة عند الضغط */
+.social-links a:nth-child(1):active {
+  background: #3b5998; /* لون فيسبوك */
+  box-shadow: 0 0 30px rgba(59, 89, 152, 0.4), 0 0 50px rgba(59, 89, 152, 0.3);
+}
+
+.social-links a:nth-child(2):active {
+  background: #1DA1F2; /* لون تويتر */
+  box-shadow: 0 0 30px rgba(29, 161, 242, 0.4), 0 0 50px rgba(29, 161, 242, 0.3);
+}
+
+.social-links a:nth-child(3):active {
+  background: #E1306C; /* لون انستغرام */
+  box-shadow: 0 0 30px rgba(225, 48, 108, 0.4), 0 0 50px rgba(225, 48, 108, 0.3);
+}
+
+.social-links a:nth-child(4):active {
+  background: #FF0000; /* لون يوتيوب */
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.4), 0 0 50px rgba(255, 0, 0, 0.3);
+}
+
+.social-links a:nth-child(5):active {
+  background: #0088cc; /* لون تليجرام */
+  box-shadow: 0 0 30px rgba(0, 136, 204, 0.4), 0 0 50px rgba(0, 136, 204, 0.3);
+}
+
+.social-links a:nth-child(6):active {
+  background: #000000; /* لون تيك توك */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4), 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+.social-links a:nth-child(7):active {
+  background: #FF5A5F; /* لون الموقع */
+  box-shadow: 0 0 30px rgba(255, 90, 95, 0.4), 0 0 50px rgba(255, 90, 95, 0.3);
+}
+
+/* تأثير تكبير الأيقونة عند الضغط */
+.social-links a:active img {
+  transform: scale(1.2);
+}
